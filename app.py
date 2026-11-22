@@ -34,6 +34,7 @@ header, footer, [data-testid="stSidebar"] {{ display: none !important; }}
 .dot {{ display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-left: 6px; vertical-align: middle; }}
 .quote {{ background: #fff; border: 1px solid {LINE}; border-radius: 14px; padding: 18px 20px; box-shadow: 0 4px 14px rgba(11,27,58,.06); }}
 .cite {{ display: inline-block; background: {TEAL}22; color: {TEAL}; border-radius: 8px; padding: 3px 10px; font-size: 13px; font-weight: 700; margin-top: 10px; }}
+[data-testid="stPlotlyChart"], [data-testid="stGraphVizChart"] {{ direction: ltr; }}
 .stButton > button {{ background: #fff; color: {NAVY}; border: 1px solid {LINE}; border-radius: 12px; font-size: 17px; font-weight: 700; min-height: 48px; }}
 .stButton > button:hover {{ border-color: {TEAL}; color: {TEAL}; }}
 .stButton > button:disabled {{ color: #A9B6C6; }}
